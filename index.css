@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin:0;
+}
+h1{
+    color:#333;
+    text-align: center;
+}
+.img-div{
+    background:#dbd6d6f3;
+}
+
+.abt-div{
+    margin-top:3%;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.abt{
+    word-spacing: 3px;
+}
+

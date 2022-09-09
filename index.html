@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash</title>
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <!---------------------navbar start------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark position-fixed w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand text-success" href="#">Unsplash</a>
+          <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#images">Images</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--------------------------------------navbar end------------------------------------->
+      <img id="home" src="pexels-andrea-piacquadio-3769138.jpg" class="img-fluid" alt="Responsive image">
+
+      <!----------------------------------------Images--------------------------------------->
+      <div class="img-div" id="images">
+      <h1 class="text-center mb-3">Images</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail ms-3 mb-3 mx-3">
+              <img src="img1.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail ms-3 mb-3 mx-3">
+                <img src="img2.jpg" style="width:100%">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail ms-3 mb-3 mx-3">
+                <img src="img3.jpg" style="width:100%">
+            </div>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail  ms-3 mb-3 mx-3">
+              <img src="img4.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail ms-3 mb-3 mx-3">
+                <img src="img5.jpg" style="width:100%">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail ms-3 mb-3 mx-3">
+                <img src="img6.jpg" style="width:100%">
+            </div>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail ms-3 mb-3 mx-3">
+              <img src="img7.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail ms-3 mb-3 mx-3">
+                <img src="img8.jpg" style="width:100%">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail ms-3 mb-3 mx-3">
+                <img src="img9.jpg" style="width:100%">
+            </div>
+          </div>
+      </div>
+      </div>
+
+      <!------------------------------------Images end--------------------------------------->
+
+      <!----------------------------------About start---------------------------------------->
+      <div class="abt-div mb-3" id="about">
+        <h1 class="mb-3">About</h1>
+        <div class="abt">
+          <h4>Over three million curated photos</h4>
+          <p>We hand-select every photo and accept only the best, so that<br> no matter what you need—you’ll find exactly what<br> you’re looking for on Unsplash.</p>
+        </div>
+        <div class="abt">
+          <h4>A community of 293,995 photographers</h4>
+          <p>Unsplash is home to a growing community of photographers—from<br> hobbyists, professionals, emerging brands and everyone in between.</p>
+        </div>
+        <div class="abt">
+          <h4>Fuelling your favourite platforms</h4>
+          <p>With partners like BuzzFeed, Squarespace and Trello being powered<br> by our API, the Unsplash library is more widely accessible than ever.</p>
+        </div>
+        <div class="abt">
+          <h4>Make something awesome</h4>
+          <p>Unsplash was born from the pain we had in finding great, usable imagery.<br> And we weren’t alone. Which is why, today—millions of creators<br> from around the world have downloaded over 4 billion Unsplash <br>images to create presentations, artwork, mockups, and more.</p>
+        </div>
+      </div>
+      
+      
+      <!----------------------------------About end---------------------------------------->
+      
+      <!---------------------------------contact start------------------------------------->
+      <div class="bg-secondary" id="contact">
+        <h1>Contact</h1>
+        <div class="bg-dark text-light container col-md-6">
+          <form col-md-12>
+            <div class="row">
+              <div class="col col-md-5 m-3 mx-0 ms-3">
+                <label for="exampleInputName1">First Name</label>
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col m-3 col-md-5 mx-0">
+                <label for="exampleInputName2">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <div class="form-group ms-3 col-md-10">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group ms-3 col-md-10">
+              <label for="exampleInputPassword1">Password</label>
+              <div class="input-group">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group col-md-10 m-3 mx-0 ms-3">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-check ms-3 mt-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary ms-3 mb-3">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!---------------------------------contact start------------------------------------->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
